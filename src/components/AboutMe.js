@@ -2,24 +2,25 @@ import { Col, Container, Row } from "react-bootstrap";
 
 function AboutMe(){
     return(
-        <Container fluid id="about" style={{backgroundColor:"lightblue"}}>
+        <Container id="about" style={{backgroundColor:"#7cdaf9"}}>
+            <Container fluid>
             <h1>About Me</h1>
             <Row>
                 <Col>
                 <p>
-                <span style={{fontWeight:"400"}}>Name: </span>
+                <span style={{fontWeight:"700"}}>Name: </span>
                 <span>Nathaniel Antonio Cano Salas</span>
                 </p>
                 <p>
-                <span style={{fontWeight:"400"}}>Profile: </span>
+                <span style={{fontWeight:"700"}}>Profile: </span>
                 <span>Web Developer</span>
                 </p>
                 <p>
-                <span style={{fontWeight:"400"}}>Email: </span>
+                <span style={{fontWeight:"700"}}>Email: </span>
                 <span>nathacasa07@outlook.com</span>
                 </p>
                 <p>
-                <span style={{fontWeight:"400"}}>Phone: </span>
+                <span style={{fontWeight:"700"}}>Phone: </span>
                 <span>(+52)4424379211</span>
                 </p>
                 </Col>
@@ -52,6 +53,7 @@ function AboutMe(){
                     </ul>
                 </Col>
             </Row>
+            </Container>
         </Container>
     );
 }

@@ -2,7 +2,7 @@ import { Button, Col, Container, Form, Row } from "react-bootstrap";
 
 function Contact(){
     return(
-        <Container fluid>
+        <Container fluid id="contact">
             <Row>
                 <Col>
                     <h1>Send me an Email</h1>
@@ -31,6 +31,11 @@ function Contact(){
                         <li>GitHub</li>
                         <li>LinkedIn</li>
                     </ul>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                <Button type="button">Download CV</Button>
                 </Col>
             </Row>
         </Container>

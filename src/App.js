@@ -4,6 +4,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {

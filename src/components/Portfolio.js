@@ -2,7 +2,7 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 
 function Portfolio(){
     return(
-    <Container fluid>
+    <Container fluid id="portfolio">
         <h1>Portfolio</h1>
         <Row>
             <Col>
