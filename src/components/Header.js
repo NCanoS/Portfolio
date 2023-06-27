@@ -6,7 +6,7 @@ function Header(){
         <>
         <Navbar collapseOnSelect expand="lg" data-bs-theme="dark" sticky="top" style={{backgroundColor:"#004173", color:"#b6ffff"}}>
             <Container>
-                <Navbar.Brand href="#home">Replace Logo</Navbar.Brand>
+                <Navbar.Brand href="#home">NCanoS Dev</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav variant="pills" defaultActiveKey="/#home" className="me-auto " style={{ maxHeight: '100px', color:"#b6ffff"}} navbarScroll>
