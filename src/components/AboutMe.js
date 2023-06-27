@@ -1,12 +1,15 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 
 function AboutMe(){
     return(
-        <Container id="about" style={{backgroundColor:"#7cdaf9"}}>
-            <Container fluid>
-            <h1>About Me</h1>
-            <Row>
+        <Container id="about" style={{maxWidth:"80%",paddingTop:"20px"}}>
+            <Card className="shadow-lg p-3 mb-5 bg-white rounded">
+                <Card.Body style={{padding:"40px"}}>
+                    <Card.Title><h1>About Me</h1></Card.Title>
+                    <Card.Text>
+                    <Row>
                 <Col>
+                <br></br>
                 <p>
                 <span style={{fontWeight:"700"}}>Name: </span>
                 <span>Nathaniel Antonio Cano Salas</span>
@@ -53,7 +56,11 @@ function AboutMe(){
                     </ul>
                 </Col>
             </Row>
-            </Container>
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+
+            
         </Container>
     );
 }
