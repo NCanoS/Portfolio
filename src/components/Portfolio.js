@@ -1,13 +1,15 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
+import restaurantLogo from "../assets/restaurant-logo.png";
 
 function Portfolio(){
     return(
-    <Container fluid id="portfolio">
+    <Container id="portfolio" style={{padding:"20px"}}>
         <h1>Portfolio</h1>
         <Row>
             <Col>
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="#" />
+            <a href="#" style={{textDecoration:"none", animation:"ease-in-out"}}>
+            <Card style={{ width: '20%' }} >
+            <Card.Img variant="top" src={restaurantLogo} />
             <Card.Body>
             <Card.Title>Restaurant App</Card.Title>
             <Card.Text>
@@ -17,6 +19,7 @@ function Portfolio(){
             </Card.Text>
             </Card.Body>
             </Card>
+            </a>
             </Col>
         </Row>
     </Container>

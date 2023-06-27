@@ -9,7 +9,7 @@ function Contact(){
         <Container id="contact" className="bg-white">
             <Row>
                 <Col style={{padding:"20px"}}>
-                    <h1>Send me an Email</h1>
+                    <h2>Send me an Email</h2>
                     <Form>
                     <Form.Group className="mb-3" controlId="name">
                     <Form.Control type="text" placeholder="Your Name" />
@@ -27,13 +27,13 @@ function Contact(){
                     <Button type="submit">Send Email</Button>
                 </Col>
                 <Col style={{padding:"20px"}}>
-                    <h1>Contact information</h1>
+                    <h2>Contact information</h2>
                     <p><BsFillGeoAltFill/> Corregidora, Qro. 76921</p>
                     <p><BsWhatsapp/> (+52) 442 4379211</p>
                     <p><BsFillEnvelopeAtFill/> nathacasa07@outlook.com</p>
                     <ul style={{listStyle:"none"}}>
-                        <li><a href="https://github.com/NCanoS" target="_blank"><h1><BsGithub/></h1></a></li>
-                        <li><a href="https://www.linkedin.com/in/nathaniel-cano" target="_blank"><h1><BsLinkedin/></h1></a></li>
+                        <li><a href="https://github.com/NCanoS" target="_blank" rel="noreferrer"><h1><BsGithub/></h1></a></li>
+                        <li><a href="https://www.linkedin.com/in/nathaniel-cano" target="_blank" rel="noreferrer"><h1><BsLinkedin/></h1></a></li>
                     </ul>
                     <Button type="button" href={cv} download>Download CV</Button>
                 </Col>
