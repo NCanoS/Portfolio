@@ -8,7 +8,7 @@ function Portfolio(){
         <h1>Portfolio</h1>
         <Row style={{maxWidth:"60%"}} className="w-100 mx-auto">
             <Col>
-            <a href="https://644c6e00c9c13b36b327a789--effortless-naiad-18fba6.netlify.app/?classId=022bab65-30d3-4e06-af92-b8126a5e792c&assignmentId=031ef28c-4bca-47a5-8f7d-c6e62ce6257e&submissionId=d98b3f56-3882-3b77-f212-696ca3612fe2" target="_blank" style={{textDecoration:"none", animation:"ease-in-out"}}>
+            <a href="https://644c6e00c9c13b36b327a789--effortless-naiad-18fba6.netlify.app/?classId=022bab65-30d3-4e06-af92-b8126a5e792c&assignmentId=031ef28c-4bca-47a5-8f7d-c6e62ce6257e&submissionId=d98b3f56-3882-3b77-f212-696ca3612fe2" target="_blank" rel="noreferrer" style={{textDecoration:"none", animation:"ease-in-out"}}>
             <Card style={{backgroundColor:"#7cdaf9"}} className="w-100 align-items-center shadow-lg p-3 mb-5 rounded hover-zoom" >
             <Card.Img variant="top" src={restaurantLogo} style={{width:"30%"}}/>
             <Card.Body>
