@@ -8,7 +8,7 @@ function Contact(){
         <div style={{backgroundColor:"#0979b0", padding:"40px"}}>
         <Container id="contact" className="bg-white">
             <Row>
-                <Col style={{padding:"20px"}}>
+                <Col className="p-4">
                     <h2>Send me an Email</h2>
                     <Form>
                     <Form.Group className="mb-3" controlId="name">
@@ -26,7 +26,7 @@ function Contact(){
                     </Form>
                     <Button type="submit">Send Email</Button>
                 </Col>
-                <Col style={{padding:"20px"}}>
+                <Col className="p-4">
                     <h2>Contact information</h2>
                     <p><BsFillGeoAltFill/> Corregidora, Qro. 76921</p>
                     <p><BsWhatsapp/> (+52) 442 4379211</p>
